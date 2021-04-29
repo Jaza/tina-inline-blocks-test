@@ -28,5 +28,5 @@ export default function Home() {
 }
 
 const HOME_BLOCKS = {
-  hero:heroBlock,
+  hero: heroBlock,
 }
