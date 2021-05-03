@@ -1,11 +1,11 @@
-import React from 'react'
-import { InlineTextarea, BlocksControls } from 'react-tinacms-inline'
-import '../styles/hero.css'
+import React from 'react';
+import { InlineTextarea, BlocksControls } from 'react-tinacms-inline';
+import '../styles/hero.css';
 
 export function Hero() {
   return (
-    <div className='hero'>
-      <div className='wrapper wrapper--narrow'>
+    <div className="hero">
+      <div className="wrapper wrapper--narrow">
         <h1>
           <InlineTextarea name="headline" />
         </h1>
@@ -31,4 +31,4 @@ export const heroBlock = {
     },
     fields: [],
   },
-}
+};
